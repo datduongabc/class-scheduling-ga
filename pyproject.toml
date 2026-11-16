@@ -1,7 +1,7 @@
 [project]
 name = "class-scheduling-ga"
 description = "University class scheduling with a genetic algorithm and conflict-directed repair"
-version = "1.0.0"
+version = "1.0.1"
 requires-python = ">=3.14"
 dependencies = [
     "matplotlib>=3.11.2",
