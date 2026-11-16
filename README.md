@@ -78,7 +78,7 @@ The full breakdown is in [`outputs/summary.json`](outputs/summary.json).
 
 ## Quick start
 
-Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/).
+Requires Python 3.14+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
 uv sync
