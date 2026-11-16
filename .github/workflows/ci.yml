@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      - name: Smoke-run the CLI
+        run: |
+          uv run python main.py --seed 7 --generations 30 --pop 40 --out smoke
+          for f in schedule.csv timetable_rooms.txt timetable_profs.txt fitness.png fitness.pdf \
+                   history.csv summary.json numbers.tex; do
+            test -s "smoke/$f" || { echo "missing smoke/$f"; exit 1; }
+          done

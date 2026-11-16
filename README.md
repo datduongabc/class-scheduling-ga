@@ -1,5 +1,7 @@
 # class-scheduling-ga
 
+[![CI](https://github.com/datduongabc/class-scheduling-ga/actions/workflows/ci.yml/badge.svg)](https://github.com/datduongabc/class-scheduling-ga/actions/workflows/ci.yml)
+
 A genetic algorithm that builds a weekly university timetable: it assigns every class session a professor, a day, a timeslot and a room.
 It satisfies hard constraints such as no double-booked rooms or professors, and optimises soft preferences such as compact days and well-sized rooms.
 

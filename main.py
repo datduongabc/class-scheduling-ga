@@ -89,7 +89,7 @@ def plot(hist, out):
     b.plot(g, hist.soft, label="soft penalty S (best)", color="tab:green")
     b.set_yscale("symlog", linthresh=1)
     b.set_xlabel("generation")
-    b.set_ylabel("count")
+    b.set_ylabel("value")  # H is a count, S a weighted penalty
     b.legend()
     b.grid(True, which="both", alpha=0.3)
     fig.tight_layout()
