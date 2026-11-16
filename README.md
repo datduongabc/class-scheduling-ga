@@ -115,3 +115,7 @@ The GA parameters are in `GAConfig` in `ga.py`.
 
 The vectorised fitness is compared with an independent, loop-based implementation on random schedules.
 Other tests inject each kind of hard violation, check that repair keeps a feasible schedule feasible, and check the generated instance.
+
+## License
+
+[MIT](LICENSE)
