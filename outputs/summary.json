@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "generations_run": 3988,
+  "runtime_s": 248.3,
+  "config": {
+    "pop_size": 150,
+    "generations": 5000,
+    "tournament": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.0005,
+    "repairs": 3,
+    "time_tries": 12,
+    "elite": 2,
+    "patience": 400,
+    "seed": 42
+  },
+  "penalty": 323,
+  "fitness": 0.0030864197530864196,
+  "terms": {
+    "room_clash": 0,
+    "prof_clash": 0,
+    "prof_overload": 0,
+    "room_too_small": 0,
+    "prof_unqualified": 0,
+    "prof_gap": 18,
+    "prof_mixed_day": 91,
+    "course_split": 83,
+    "room_waste": 40,
+    "no_favorite": 0,
+    "H": 0,
+    "S": 323
+  },
+  "soft_weights": {
+    "prof_gap": 1,
+    "prof_mixed_day": 2,
+    "course_split": 1,
+    "room_waste": 1,
+    "no_favorite": 5
+  },
+  "first_feasible_generation": 260,
+  "initial_best": {
+    "penalty": 599570,
+    "H": 598,
+    "S": 1570
+  },
+  "instance": {
+    "rooms_per_size": [
+      13,
+      12,
+      10
+    ],
+    "sections_per_size": [
+      191,
+      174,
+      115
+    ]
+  }
+}

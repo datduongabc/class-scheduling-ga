@@ -1,0 +1,9 @@
+# Python / tooling
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Course submission material, kept local only
+*.zip
+report/
+make_zip.sh

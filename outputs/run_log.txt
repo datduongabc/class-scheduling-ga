@@ -1,0 +1,99 @@
+gen     0  best=  599570  H= 598  S= 1570  mean=  648099.0     0.0s
+gen   100  best=  136301  H= 135  S= 1301  mean=  153325.2     6.1s
+gen   200  best=   14193  H=  13  S= 1193  mean=   21042.0    12.6s
+gen   300  best=    1057  H=   0  S= 1057  mean=    4830.4    19.3s
+gen   400  best=     887  H=   0  S=  887  mean=    5591.3    25.2s
+gen   500  best=     815  H=   0  S=  815  mean=    4487.8    31.1s
+gen   600  best=     738  H=   0  S=  738  mean=    3248.8    37.0s
+gen   700  best=     673  H=   0  S=  673  mean=    3787.9    42.9s
+gen   800  best=     622  H=   0  S=  622  mean=    3621.1    48.6s
+gen   900  best=     583  H=   0  S=  583  mean=    4153.6    54.5s
+gen  1000  best=     550  H=   0  S=  550  mean=    3133.9    60.5s
+gen  1100  best=     529  H=   0  S=  529  mean=    3231.7    66.5s
+gen  1200  best=     503  H=   0  S=  503  mean=    3572.9    72.4s
+gen  1300  best=     481  H=   0  S=  481  mean=    4167.7    78.0s
+gen  1400  best=     449  H=   0  S=  449  mean=    2713.7    83.8s
+gen  1500  best=     428  H=   0  S=  428  mean=    2171.3    89.9s
+gen  1600  best=     418  H=   0  S=  418  mean=    2758.6    96.1s
+gen  1700  best=     405  H=   0  S=  405  mean=    2432.2   102.1s
+gen  1800  best=     396  H=   0  S=  396  mean=    2063.3   108.1s
+gen  1900  best=     386  H=   0  S=  386  mean=    2353.6   114.1s
+gen  2000  best=     376  H=   0  S=  376  mean=    2184.8   120.1s
+gen  2100  best=     369  H=   0  S=  369  mean=    2756.6   126.0s
+gen  2200  best=     367  H=   0  S=  367  mean=    2308.6   131.9s
+gen  2300  best=     365  H=   0  S=  365  mean=    2430.9   138.2s
+gen  2400  best=     361  H=   0  S=  361  mean=    1760.4   144.3s
+gen  2500  best=     351  H=   0  S=  351  mean=    2171.4   150.5s
+gen  2600  best=     349  H=   0  S=  349  mean=    1816.7   156.6s
+gen  2700  best=     347  H=   0  S=  347  mean=    1765.1   163.2s
+gen  2800  best=     343  H=   0  S=  343  mean=    1965.2   169.5s
+gen  2900  best=     338  H=   0  S=  338  mean=    1978.1   175.6s
+gen  3000  best=     336  H=   0  S=  336  mean=    1823.9   181.6s
+gen  3100  best=     333  H=   0  S=  333  mean=    1671.6   187.7s
+gen  3200  best=     332  H=   0  S=  332  mean=    2271.8   194.0s
+gen  3300  best=     330  H=   0  S=  330  mean=    2041.5   200.8s
+gen  3400  best=     328  H=   0  S=  328  mean=    1774.3   208.2s
+gen  3500  best=     324  H=   0  S=  324  mean=    1783.8   215.0s
+gen  3600  best=     323  H=   0  S=  323  mean=    2685.6   222.0s
+gen  3700  best=     323  H=   0  S=  323  mean=    2434.2   228.5s
+gen  3800  best=     323  H=   0  S=  323  mean=    2769.9   235.4s
+gen  3900  best=     323  H=   0  S=  323  mean=    2374.3   242.2s
+done: gen 3988  best=323  {'room_clash': 0, 'prof_clash': 0, 'prof_overload': 0, 'room_too_small': 0, 'prof_unqualified': 0, 'prof_gap': 18, 'prof_mixed_day': 91, 'course_split': 83, 'room_waste': 40, 'no_favorite': 0, 'H': 0, 'S': 323}  248.3s
+{
+  "seed": 42,
+  "generations_run": 3988,
+  "runtime_s": 248.3,
+  "config": {
+    "pop_size": 150,
+    "generations": 5000,
+    "tournament": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.0005,
+    "repairs": 3,
+    "time_tries": 12,
+    "elite": 2,
+    "patience": 400,
+    "seed": 42
+  },
+  "penalty": 323,
+  "fitness": 0.0030864197530864196,
+  "terms": {
+    "room_clash": 0,
+    "prof_clash": 0,
+    "prof_overload": 0,
+    "room_too_small": 0,
+    "prof_unqualified": 0,
+    "prof_gap": 18,
+    "prof_mixed_day": 91,
+    "course_split": 83,
+    "room_waste": 40,
+    "no_favorite": 0,
+    "H": 0,
+    "S": 323
+  },
+  "soft_weights": {
+    "prof_gap": 1,
+    "prof_mixed_day": 2,
+    "course_split": 1,
+    "room_waste": 1,
+    "no_favorite": 5
+  },
+  "first_feasible_generation": 260,
+  "initial_best": {
+    "penalty": 599570,
+    "H": 598,
+    "S": 1570
+  },
+  "instance": {
+    "rooms_per_size": [
+      13,
+      12,
+      10
+    ],
+    "sections_per_size": [
+      191,
+      174,
+      115
+    ]
+  }
+}
